@@ -1,0 +1,8 @@
+venv
+output/*
+__pycache__
+build
+dist
+*.spec
+sample_data/*
+!sample_data/.gitkeep
