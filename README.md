@@ -1,6 +1,8 @@
 # M.A.S.E. - Millikan Automated System for Education
 
-<img width="1727" alt="MillikanUI" src="https://github.com/user-attachments/assets/7c3f01b7-6dcb-40a8-a184-327c3300117b" />
+## Demo 
+
+media/millikancv_app_demo.mp4
 
 ### Why M.A.S.E.?
 
