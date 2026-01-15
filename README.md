@@ -2,7 +2,7 @@
 
 ## Demo 
 
-media/millikancv_app_demo.mp4
+https://github.com/user-attachments/assets/f3848bab-aa09-47fe-98b3-fcb8a3cb2903
 
 ### Why M.A.S.E.?
 
