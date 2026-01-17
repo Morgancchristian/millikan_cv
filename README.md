@@ -81,9 +81,11 @@ python main.py
 
 The application requires video recordings of the Millikan experiment. You can:
 
-1. **Reach out to me personally for more droplet videos, I have ~ 200:**
+1. **Use the videos already in the `sample_data/` folder, there is video for electrical charge predictions 1-10**
 
-2. **Use your own videos:**
+2. **Reach out to me personally for more droplet videos, I have ~ 200**
+
+3. **Use your own videos:**
    - Place video files (MP4, AVI, MOV, etc.) in the `sample_data/` folder
    - They will automatically appear in the application's video selector
 
