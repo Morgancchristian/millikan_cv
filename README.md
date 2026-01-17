@@ -8,9 +8,9 @@ https://github.com/user-attachments/assets/f3848bab-aa09-47fe-98b3-fcb8a3cb2903
 
 The traditional Millikan experiment is time-consuming, error-prone, and requires significant setup. M.A.S.E. addresses these limitations by:
 - **Automating data collection** through video annotation
-- **Reducing computational errors** with precise physics calculations
+- **Reducing computational errors** with physics calculations
 - **Improving accessibility** for modern lab settings
-- **Increasing efficiency** by batch-processing multiple experiments  
+- **Increasing efficiency** by automating manual velocity calculations
 
 ## Features
 
@@ -19,7 +19,6 @@ The traditional Millikan experiment is time-consuming, error-prone, and requires
 - **Real-time Data Visualization** - Charts and gauges displaying droplet velocities and measurements
 - **Automatic Calculations** - Computes charge values and elementary charge multiples
 - **Physics Engine** - Corrected viscosity, radius, mass, and charge calculations
-- **Batch Processing** - Analyze multiple videos sequentially
 
 ## Technical Approach
 
@@ -82,9 +81,7 @@ python main.py
 
 The application requires video recordings of the Millikan experiment. You can:
 
-1. **Download the MillikanCV dataset from Kaggle:**
-   - Visit: https://www.kaggle.com/datasets/calebchristian/millikancv
-   - Extract videos and place them in the `sample_data/` folder
+1. **Reach out to me personally for more droplet videos, I have ~ 200:**
 
 2. **Use your own videos:**
    - Place video files (MP4, AVI, MOV, etc.) in the `sample_data/` folder
@@ -113,11 +110,10 @@ millikan-cv/
 3. **Annotate:** Click and drag on the video frames to mark droplet positions
 4. **Track Data:** The system records positions and calculates velocities in real-time
 5. **View Results:** Charts and gauges update automatically with calculated values
-6. **Batch Analysis:** Process multiple experiments sequentially for comprehensive data collection
 
 ## Physics Calculations
 
-The application implements accurate physics formulas for the Millikan experiment:
+The application implements physics formulas for the Millikan experiment:
 
 - **Air Viscosity Correction:** Adjusted for atmospheric pressure and temperature (Millikan's correction formula)
 - **Droplet Radius:** r = √[(9ηv_d)/(2ρg)]
